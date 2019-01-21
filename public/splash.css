@@ -1,0 +1,49 @@
+html,body,table,tr,td {
+    margin: 0;
+    padding: 0;
+  }
+  input:focus { 
+      outline: none; 
+  }
+  
+  img.splash_background{
+      width:101%;
+      top:-35px;
+      left:0;
+      margin:0;
+      overflow: auto;
+      position: fixed;
+  }
+  
+  ul {
+      list-style:none;
+      margin:0;
+      padding:0;
+  }
+  
+  li {
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+      border : 0;
+      float: left;
+  }
+  
+  .banner{
+      width:100%;
+      height:60px;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  }
+  
+  .bannerli{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    color: white;
+    margin-left:38px;
+  }
+  
+  .bannerimage{
+      font-size:21px;
+      color:white;
+      margin-right:20px;
+  }
