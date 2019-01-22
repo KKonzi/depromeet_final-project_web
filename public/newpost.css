@@ -6,14 +6,8 @@ html,body,table,tr,td {
       outline: none; 
   }
   
-  img.post_background{
-    width:100%;
-    top: 0;
-    left: 0;
-    margin: auto;
-    overflow: auto;
-    position: fixed;
-    right: 0;
+  .post_background{
+    background-image: url("../background/bg_paper.png")
   }
   
   ul {
@@ -29,7 +23,7 @@ html,body,table,tr,td {
       float: left;
   }
   
-  .banner{
+.banner{
     width:100%;
     height:60px;
     background-color:white;
@@ -48,4 +42,22 @@ html,body,table,tr,td {
     font-size:21px;
     color:#4C4C4C;
     margin-right:20px;
+}
+
+#postname{
+    width: 400px;
+    height: 55px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+
+.trip_photo{
+    width:200px;
+    height:200px;
+    background-color:lightgray;
+    border-radius: 20px;
+    text-align: center;
+    margin-right:10px;
 }
