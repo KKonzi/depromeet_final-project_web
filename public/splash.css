@@ -6,13 +6,18 @@ html,body,table,tr,td {
       outline: none; 
   }
   
-  img.splash_background{
-      width:101%;
+  .splash_background{
+      /* width:101%;
       top:-35px;
       left:0;
       margin:0;
       overflow: auto;
-      position: fixed;
+      position: fixed; */
+      background-image:url("../background/bg_splash.png"); 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
   }
   
   ul {
